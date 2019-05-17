@@ -6,5 +6,11 @@
 
 import re
 
-def password-strength():
-    pw_regex = .compile()
+def password_strength():
+    text = input('Enter your password: ')
+    
+    password_requirements = re.compile(r'[A-Z]+[a-z]+[0-9]+')
+    mo = password_requirements.search(text).group()
+    print(mo)
+
+password_strength()
