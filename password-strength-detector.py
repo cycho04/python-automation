@@ -4,6 +4,9 @@
 # and has at least one digit. 
 # You may need to test the string against multiple regex patterns to validate its strength.
 
+#Work on a more concise solution.
+
+
 import re
 
 def password_strength():
